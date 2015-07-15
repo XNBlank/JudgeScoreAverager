@@ -13,7 +13,7 @@ namespace JudgeScoreAverager
             Console.WriteLine("Welcome to the score average calculator.");
             Console.ResetColor();
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("Please make sure your scores have the same top score (?/10).");
+            Console.WriteLine("Please make sure your scores have the same top score (*/10).");
             Console.ResetColor();
             HighScore();
         }
@@ -77,9 +77,12 @@ namespace JudgeScoreAverager
         {
             List<float> scoreList = new List<float>();
 
+            
+
             for (int i = 0; i < totalJudges; i++)
             {
-                Console.WriteLine("\nPlease input a score.");
+                int ii = i + 1;
+                Console.WriteLine("\nPlease input score #" + ii);
 
                 string uinput1 = Console.ReadLine();
                 float aNumber;
