@@ -108,7 +108,7 @@ namespace JudgeScoreAverager
 
             Console.WriteLine("\n\nList of input scores\n");
 
-            foreach (int ii in scoreList)
+            foreach (float ii in scoreList)
             {
                 Console.WriteLine(ii);
             }
