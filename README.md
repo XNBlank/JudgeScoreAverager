@@ -1,4 +1,4 @@
-# JudgeScoreAverager
+# JudgeScoreAverager v1.0.2
 
 Judge Score Averager is the first C# program I've ever made in Visual C#. It allows users to take scores from multiple judges of a contest and average them out for a final score. 
 
